@@ -1,0 +1,7 @@
+{
+  "alwaysAllow": {
+    "Bash(./bin/arduino-cli config set network.connection_timeout 1000s)": true,
+    "Bash(GODEBUG=http2client=0 ./bin/arduino-cli --log-level debug core install esp32:esp32)": true,
+    "Bash(./bin/arduino-cli monitor --port /dev/ttyACM0 --config baudrate=115200)": true
+  }
+}
